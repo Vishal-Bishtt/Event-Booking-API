@@ -16,7 +16,7 @@ router.get("/", getAllEvents);
 router.get("/:id", getEventById);
 
 // Admin routes
-router.post("/", protect, adminOnly, createEvent);
+router.post("/protected/", protect, adminOnly, createEvent);
 router.put("/:id", protect, adminOnly, updateEvent);
 router.delete("/:id", protect, adminOnly, deleteEvent);
 

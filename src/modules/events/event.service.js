@@ -8,7 +8,7 @@ export const createEvent = async (eventData) => {
             date: new Date(eventData.date),
             time: eventData.time,
             venue: eventData.venue,
-            totalSeats: parseInt(eventData.totalSeats),
+            totalSeats: parseInt(eventData.totalseats),
             availableSeats: parseInt(eventData.availableSeats),
             price: parseFloat(eventData.price),
         }

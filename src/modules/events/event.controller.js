@@ -2,6 +2,7 @@ import * as eventService from "./event.service.js";
 
 export const createEvent = async (req, res) => {
     try {
+        console.log(req.body)
         const event = await eventService.createEvent(req.body);
         res.status(201).json(event);
     } catch (err) {
