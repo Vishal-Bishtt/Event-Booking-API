@@ -168,10 +168,6 @@ GOOGLE_CALLBACK_URL=http://localhost:3000/api/auth/google/callback
 # Frontend URL (for CORS)
 FRONTEND_URL=http://localhost:3001
 
-# Redis (Optional - for caching)
-REDIS_URL=redis://localhost:6379
-```
-
 ### 🔑 How to Get Google OAuth Credentials
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
